@@ -1,0 +1,13 @@
+//user
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+
+//cart
+
+export const ADD_TO_CART = "ADD_TO_CART";
+export const TOGGLE_CART_HIDDEN = "TOGGLE_CART_HIDDEN";
+export const REMOVE_CART_ITEM = "REMOVE_CART_ITEM";
+export const REMOVE_ITEM_IF_QUANTITY_EQUAL_ONE = "REMOVE_ITEM_IF_QUANTITY_EQUAL_ONE";
+
+//directory
+
+export const GET_ALL_DIRECTORY = "GET_ALL_DIRECTORY";

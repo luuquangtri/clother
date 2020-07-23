@@ -1,0 +1,17 @@
+.not-found {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    > h1 {
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+    > p {
+        text-align: center;
+        > .go-home {
+            color: red;
+            font-weight: bold;
+        }
+    }
+}

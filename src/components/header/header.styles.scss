@@ -1,0 +1,54 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .logo-container {
+        // height: 100%;
+        // width: 70px;
+        // padding: 25px 0px;
+    }
+    .options {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .option {
+            padding: 10px 15px;
+        }
+        .sign {
+            display: flex;
+            > span {
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                > img {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 10px;
+                    border-radius: 50%;
+                }
+            }
+            .sign-out {
+                margin-left: 20px;
+                cursor: pointer;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    height: 60%;
+                    width: 1px;
+                    top: 20%;
+                    left: -10px;
+                    background-color: red;
+                }
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}

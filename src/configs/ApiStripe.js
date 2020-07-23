@@ -1,0 +1,2 @@
+export const publicKey = "pk_test_51H6foUITQJ6qcfw2Y0MkCJ0GBt50MuefiVJVQcM43e0bXcmzaCQM2iGTEgHNRVG4raQRUJYYqbH15eK78pxVucFf00ppClntlC"
+export const secretKey = "sk_test_51H6foUITQJ6qcfw2Ru46TAlZmgUYhuGcr1LIrdsRYA7YjNTruvOBIv53sZDmpvJL2GUmEZF7HQHP2LxRvwasxVVh00FnxJf1T4"
